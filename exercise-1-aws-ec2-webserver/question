@@ -1,0 +1,22 @@
+Create an AWS EC2(Ubuntu 22.04) instance using terraform variables defined in variable.tf, having output Url/IP and Port and running Web Server.
+Do set inbound/outbound rules for same.
+Apache Web Server: apache2
+Default Port: 80
+SSH Port: 22
+
+
+Ans: 
+
+EC2 instance
+ubuntu image
+key pair
+output with public ip
+
+Security Group allow ports are 22 and 80
+
+install apache
+apt update -y
+apt install -y httpd
+systemctl start httpd
+systemctl enable httpd
+

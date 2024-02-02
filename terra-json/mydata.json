@@ -1,0 +1,13 @@
+{
+    "project": [
+        {
+            "user_name": "devuser",
+            "env": "dev"
+        },
+        {
+            "user_name": "prduser",
+            "env": "prd"
+        }
+    ]
+}
+
